@@ -1,0 +1,49 @@
+.pageContainer {
+    margin: 20px;
+}
+.playlistTitle {
+    font-size: 28px;
+    text-align: center;
+    margin: 10px 0 20px 0;
+}
+.contentContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+.contentCard {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+    background-color: var(--content-background-color);
+    min-width: 180px;
+    max-width: 180px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding: 15px 0;
+    .name {
+        font-weight: 700;
+        margin: 0 5px 8px 5px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .curatorName {
+        color: var(--secondary-font-color);
+        font-size: 12px;
+        margin: 0 5px 10px 5px;
+    }
+    .artwork {
+        width: 180px;
+        margin-bottom: 10px;
+        .coverImage {
+            width: 100%;
+        }
+    }
+    .link {
+        font-size: var(--link-font-size);
+        font-weight: 700;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

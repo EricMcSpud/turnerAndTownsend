@@ -1,0 +1,17 @@
+<div class="pageContainer">
+    <div class="playlistTitle">
+        {{featuredPlaylist.name}}
+    </div>
+    <div class="contentContainer">
+        <div class="contentCard" *ngFor="let item of featuredPlaylist.content;">
+            <div class="name">{{item.name}}</div>
+            <div class="curatorName">{{item.curator_name}}</div>
+            <div class="artwork">
+                <img class="coverImage" src='{{item.artwork}}' />
+            </div>
+            <div class="url">
+                <a class="link" href="{{item.url}}" target="_new" alt="Music location">Show Me</a>
+            </div>
+        </div>
+    </div>
+</div>

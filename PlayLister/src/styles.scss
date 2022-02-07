@@ -1,0 +1,18 @@
+:root {
+    --primary-font-color: black;
+    --primary-font-size: 16px;
+    --secondary-font-color: #666;
+    --secondary-font-size: 12px;
+    --link-font-color: initial;
+    --link-font-size: 14px;
+    --page-background-color: #f1f1f1;
+    --content-background-color: white;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: var(--primary-font-size);
+    color: var(--primary-font-color);
+    background-color: var(--page-background-color);
+    padding: 0;
+    margin: 0;
+}
