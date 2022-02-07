@@ -23,16 +23,14 @@
     .name {
         font-weight: 700;
         margin: 0 5px 8px 5px;
-        overflow: hidden;
-        text-overflow: ellipsis;
     }
     .curatorName {
         color: var(--secondary-font-color);
-        font-size: 12px;
+        font-size: var(--secondary-font-size);
         margin: 0 5px 10px 5px;
     }
     .artwork {
-        width: 180px;
+        width: 178px;
         margin-bottom: 10px;
         .coverImage {
             width: 100%;
